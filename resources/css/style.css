@@ -1,18 +1,17 @@
-html {
+body {
   background-color: black;
   font-family: verdana;
 }
 
 h1,
  h2,
-  h3,
    p {
-  font-align: center;
+  text-align: center;
 }
 
 h1,
   h2 {
-  font-color: white;
+  color: white;
 }
 
 h1 {
@@ -20,7 +19,22 @@ h1 {
   font-size: 50px;
 }
 
-.download p {
-  font-color: Aquamarine;
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+a {
+  color: aquamarine;
   font-size: 16px;
+}
+
+.presentation,
+  .copyright {
+  color: gray;
+  font-size: 21px;
+}
+
+.copyright {
+  text-align: right;
 }
